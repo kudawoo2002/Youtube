@@ -102,7 +102,7 @@ aside {
   background-color: #fff;
   margin-top: 70px;
   /* position: fixed;
-  /* top: 0px;
+  top: 0px;
   left: 0;
   bottom: 0;
   z-index: 200; */
@@ -162,4 +162,24 @@ p {
 }
 aside img {
   height: 30px;
+}
+
+.video-info {
+  position: relative;
+}
+
+.video-time {
+  background-color: #000;
+  color: #fff;
+  height: 25px;
+  /* width: 40px; */
+  position: absolute;
+  bottom: 150px;
+  right: 10px;
+  padding: 4px 8px;
+  text-align: center;
+  /* bottom: 10px;
+  right: 10px; */
+  /* display: inline-block; */
+  /*  */
 }
