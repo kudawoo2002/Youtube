@@ -121,6 +121,7 @@ aside div:hover {
   /* height: 100%; */
   background-color: #aaa;
   cursor: pointer;
+  padding: 12px 0;
 }
 section {
   background-color: rgb(247, 247, 247);
