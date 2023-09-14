@@ -131,8 +131,6 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 70px;
-  /* margin-left: 70px; */
-  align-items: center;
   gap: 16px;
   padding: 10px;
   width: 100%;
@@ -173,6 +171,7 @@ aside img {
 
 .video-info {
   position: relative;
+  margin-bottom: 1.6rem;
 }
 
 .video-time {
