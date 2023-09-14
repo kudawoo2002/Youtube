@@ -31,7 +31,7 @@ nav {
   border-bottom-style: solid;
   border-bottom-color: rgb(228, 228, 228);
   position: fixed;
-  /* z-index: 100; */
+  z-index: 200;
 }
 .search-div {
   display: flex;
@@ -116,11 +116,12 @@ aside div {
   align-items: center;
   width: 100%;
   height: 70px;
+  transition: all 0.7s;
 }
 
 aside div:hover {
   /* height: 100%; */
-  background-color: #aaa;
+  background-color: #ced4da;
   cursor: pointer;
   padding: 12px 0;
 }
@@ -146,8 +147,10 @@ section {
 }
 
 h1 {
-  font-size: 3rem;
-  letter-spacing: 1;
+  color: #444;
+  font-size: 2.5rem;
+  letter-spacing: 0.5px;
+  line-height: 1;
   margin-bottom: 12px;
 }
 
@@ -158,7 +161,7 @@ h1 {
 
 p {
   font-size: 12px;
-  color: #333;
+  color: #868e96;
 }
 aside img {
   height: 30px;
