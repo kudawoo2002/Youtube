@@ -62,10 +62,19 @@ nav {
   height: 30px;
 }
 
+.search-btn:hover,
+.search-img:hover {
+  cursor: pointer;
+}
 .search-voice {
   margin-left: 10px;
   border: 2px solid rgb(207, 207, 207);
   border-radius: 50%;
+}
+
+.search-voice:hover,
+.voice:hover {
+  cursor: pointer;
 }
 
 .voice {
@@ -94,7 +103,8 @@ nav {
   z-index: 100;
 }
 
-.notification:hover {
+.notification:hover,
+.notifocation-number {
   cursor: pointer;
 }
 
